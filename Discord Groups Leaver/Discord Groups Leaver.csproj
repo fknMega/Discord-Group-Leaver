@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Discord_Groups_Leaver</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="istockphoto-1241314068-612x612.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Anarchy" Version="0.8.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="istockphoto-1241314068-612x612.jpg" />
+  </ItemGroup>
+
+</Project>
